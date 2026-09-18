@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import os
 
-model = joblib.load("house_price_model.pkl")
+model = joblib.load("MultiLinear_regression_Price_model_predict (1).pkl")
 
 
 def predict_price(area, bedrooms, floors):
